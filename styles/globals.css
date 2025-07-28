@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "yekan";
+    src: url("../public/fonts/Yekan.ttf");
+}
+
+body {
+    background-color: rgb(243 244 246);
+    font-family: "yekan" , sans-serif;
+    direction: rtl;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+
+.col {
+    width: 100%;
+    padding: 16px;
+}
+
+.section {
+    padding: 16px 0;
+}
+
+@media screen and (min-width : 576px) {
+    .col {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    .col {
+        width: 33.33%;
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    .col {
+        width: 25%;
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    padding: 16px 0;
+    border-top: 3px double rgb(208 208 208);
+}
+
+.footer ul li {
+    color: rgb(73 73 73);
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.socials ul {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

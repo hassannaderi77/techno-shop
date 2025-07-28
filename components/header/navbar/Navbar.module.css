@@ -1,0 +1,38 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(288, 288, 288);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar ul li {
+    padding: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: rgb(17, 17, 17);
+}
+
+.navbar ul li:nth-child(1){
+    display: none;
+}
+
+.navbar ul li:nth-child(1) svg {
+    vertical-align: sub;
+}
+
+@media  screen and (max-width : 992px) {
+    .navbar ul li:nth-child(1) {
+        display: block;
+    }
+}
